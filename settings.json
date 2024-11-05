@@ -517,20 +517,21 @@
             },
             {
                "scope": [
+                  "keyword.control",
                   "keyword.control.import",
                   "keyword.control.as",
                   "keyword.control.from",
-                  "storage.type.ts",
+                  "storage.type",
                   "keyword.control.export",
                   "storage.type.function",
                   "storage.modifier.async",
-                  "storage.type.interface",
+                  // "storage.type.interface",
                   "keyword.control.switch",
                   "keyword.control.default",
                   "storage.modifier",
-                  "storage.type.type",
-                  "storage.type.class",
-                  "storage.type.enum",
+                  // "storage.type.type",
+                  // "storage.type.class",
+                  // "storage.type.enum",
                   "entity.other.attribute-name.id.css",
                   "keyword.operator.expression.delete",
                   "keyword.operator.new",
@@ -544,32 +545,26 @@
                   "keyword.other.delete",
                   "punctuation.definition.template-expression",
                   "keyword.control.directive.define",
-                  "keyword.control.loop",
                   "keyword.control.conditional",
                   "support.constant"
                ],
                "settings": {
-                  // "foreground": "#ed9568"
-                  // "foreground": "#fca57a"
-                  // "foreground": "#fcc77d"
-                  "foreground": "#e3ba81"
+                  "foreground": "#efa17a"
                }
             },
             {
                "scope": [
                   "keyword.control.trycatch",
                   "entity.name.function",
-                 "storage.type",
                   "keyword.operator.expression.of",
                   "keyword.operator.expression.in",
                   "entity.other.attribute-name.class.css",
-                  "keyword.operator"
+                  "keyword.operator",
+                  "keyword.control.loop",
+                  "keyword.operator.expression.typeof"
                ],
                "settings": {
-                  // "foreground": "#fcc77df3",
-                  // "foreground": "#e3ba81"
-                  "foreground": "#efa17a"
-                  // "foreground": "#ed9568"
+                  "foreground": "#e3ba81"
                }
             },
             {
@@ -601,7 +596,7 @@
             {
                "scope": ["variable.parameter"],
                "settings": {
-                  "foreground": "#d3a6ffe3"
+                  "foreground": "#c2a6fff5"
                }
             },
             {
